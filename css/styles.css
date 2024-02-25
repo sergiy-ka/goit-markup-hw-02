@@ -17,16 +17,16 @@
 body {
   background-color: var(--white);
   font-family: var(--font-family);
-  font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
 }
 ul,
-ol,
-a {
+ol {
   list-style-type: none;
+}
+a {
   text-decoration: none;
 }
 /*--Index--*/
@@ -40,7 +40,7 @@ a {
   font-family: var(--second-family);
   font-weight: 800;
   font-size: 18px;
-  line-height: 117%;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -61,7 +61,6 @@ a {
 .nav-menu-link:hover,
 .nav-menu-link:focus {
   color: var(--ocean);
-  text-decoration-line: underline;
 }
 .address {
 }
@@ -83,9 +82,8 @@ a {
   background: var(--navy-blue);
 }
 .hero-title {
-  font-weight: 700;
   font-size: 56px;
-  line-height: 107%;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--white);
 }
@@ -99,8 +97,8 @@ a {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 4%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--white);
   cursor: pointer;
 }
@@ -129,16 +127,15 @@ a {
 .heading-sub {
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
 .projects-section {
 }
 .heading-section {
-  font-weight: 700;
   font-size: 36px;
-  line-height: 111%;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navy-blue);
@@ -205,7 +202,7 @@ a {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--iris);
   cursor: pointer;
